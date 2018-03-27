@@ -1,5 +1,8 @@
 {
     "dev": {
+    	"certificate_arn": "arn:aws:acm:us-east-1:078523658415:certificate/acc542a9-cdcd-44b1-bb13-1ae4cd5db7d7",
+    	"domain": "www.jay-greco.com",
+    	"route53_enabled": false,
         "app_function": "app.app", 
         "aws_region": "us-west-2", 
         "profile_name": "default", 
