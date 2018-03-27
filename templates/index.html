@@ -2,21 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="icon" href="static/favicon.ico" type="image/x-icon" />
-		<link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="static/apple-touch-icon.png" />
+		<link rel="icon" href="{{url_for('static', filename='favicon.ico')}}" type="image/x-icon"/>
+		<link rel="shortcut icon" href="{{url_for('static', filename='favicon.ico')}}" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="{{url_for('static', filename='apple-touch-icon.png')}}" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		
 		<title>About</title>
-		<link rel="stylesheet" type="text/css" media="screen" href="static/styles.css"/>
-		<link rel="stylesheet" type="text/css" media="screen" href="static/css/styles/grey.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="static/css/footer/left.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="static/css/banners/image1.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="static/css/sidebar/right.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="static/css/header/default.css" />
+
+		<link rel="stylesheet" type="text/css" media="screen" href="{{url_for('static', filename='styles.css')}}"/>
+		<link rel="stylesheet" type="text/css" media="screen" href="{{url_for('static', filename='css/styles/grey.css')}}" />
+		<link rel="stylesheet" type="text/css" media="screen" href="{{url_for('static', filename='css/footer/left.css')}}" />
+		<link rel="stylesheet" type="text/css" media="screen" href="{{url_for('static', filename='css/banners/image1.css')}}" />
+		<link rel="stylesheet" type="text/css" media="screen" href="{{url_for('static', filename='css/sidebar/right.css')}}" />
+		<link rel="stylesheet" type="text/css" media="screen" href="{{url_for('static', filename='css/header/default.css')}}" />
 		
-		<script type="text/javascript" src="static/javascript.js"></script>
-		
+		<script type="text/javascript" src="{{url_for('static', filename='javascript.js')}}"></script>
 	</head>
 	
 <div class="ribbon">
@@ -43,8 +43,6 @@
 			<a href="https://www.linkedin.com/in/jay-greco/" rel="external">LinkedIn</a> <br />
 			<a href="https://github.com/jaygreco" rel="external">GitHub</a> <br />
 			<a href="http://www.thingiverse.com/jaygreco/designs" rel="external">Thingiverse</a> <br/>
-			<!-- sidebar content you enter in the page inspector -->
-			 <!-- sidebar content such as the blog archive links -->
 		</div><!-- End sidebar content -->
 	</div><!-- End sidebar wrapper -->
 	
@@ -52,24 +50,36 @@
 		<div id="content"><!-- Start content -->
 			
 
-<div id='stacks_out_10_page1' class='stacks_top'><div id='stacks_in_10_page1' class='stacks_in'><div id='stacks_out_11_page1' class='stacks_out'><div id='stacks_in_11_page1' class='stacks_in'><div class='centered_image' ><img class='imageStyle' src='static/Jay-3.jpg' width='500' alt='Stacks Image 1' /></div></div></div><div id='stacks_out_12_page1' class='stacks_out'><div id='stacks_in_12_page1' class='stacks_in'><span style="font-size:15px;">
-<br>
-I'm an electrical and computer engineer from Boulder, Colorado.<br><br>
+<div class='stacks_top'>
+	<div class='stacks_in'>
+		<div class='stacks_out'>
+			<div class='stacks_in'>
+				<div class='centered_image' >
+					<img class='imageStyle' src="{{url_for('static', filename='Jay-3.jpg')}}" width='500' alt='Profile Image' />
+				</div>
+			</div>
+		</div>
+		<div class='stacks_out'>
+			<div class='stacks_in'>
+				<span style="font-size:15px;">
+				<br>
+				I'm an electrical and computer engineer from Boulder, Colorado.<br><br>
 
-I graduated Summa Cum Laude at the University of Colorado School of Engineering in May of 2015. I graduated with a focus in Power Electronics, Control Systems, and a <a href="http://www.colorado.edu/engineeringleadershipprogram/" target="_blank">certificate in Engineering Leadership</a>.<br><br>
+				I graduated Summa Cum Laude at the University of Colorado School of Engineering in May of 2015. I graduated with a focus in Power Electronics, Control Systems, and a <a href="http://www.colorado.edu/engineeringleadershipprogram/" target="_blank">certificate in Engineering Leadership</a>.<br><br>
 
-I'm a forward-thinking engineer with a knack for seeing the big picture. I have a passion for creating. I never shy away from a challenge. I seek constant self-improvement. I'm agreeable, open-minded, and kind.<br><br>
+				I'm a forward-thinking engineer with a knack for seeing the big picture. I have a passion for creating. I never shy away from a challenge. I seek constant self-improvement. I'm agreeable, open-minded, and kind.<br><br>
 
-I've spent over two years at <a href="https://www.tensentric.com" target="_blank">Tensentric</a>, designing, building, and testing Medial Devices for some of the world's largest MedTech companies. In my off time, I’ve been building <a href="https://youtu.be/9V9N1CbgrxY" target="_blank">Fat-Tire eBikes</a>, doing <a href="https://youtu.be/QiD7SqxPbMY" target="_blank">technical teardowns</a>, and <a href="http://www.blog.jay-greco.com/wp/?p=116" target="_blank">reverse engineering</a> other people’s hardware and software. Oh, and the occasional <a href="http://www.jay-greco.com/files/stacks_image_0.png" target="_blank">trip down under</a>!<br><br>
+				I've spent over two years at <a href="https://www.tensentric.com" target="_blank">Tensentric</a>, designing, building, and testing Medial Devices for some of the world's largest MedTech companies. In my off time, I’ve been building <a href="https://youtu.be/9V9N1CbgrxY" target="_blank">Fat-Tire eBikes</a>, doing <a href="https://youtu.be/QiD7SqxPbMY" target="_blank">technical teardowns</a>, and <a href="http://www.blog.jay-greco.com/wp/?p=116" target="_blank">reverse engineering</a> other people’s hardware and software. Oh, and the occasional <a href="http://www.jay-greco.com/files/stacks_image_0.png" target="_blank">trip down under</a>!<br><br>
 
-Feel free to check out some of my open-soruce projects on <a href="https://github.com/jaygreco">Github</a> and <a href="https://www.thingiverse.com/jaygreco/designs">Thingiverse</a>.
+				Feel free to check out some of my open-soruce projects on <a href="https://github.com/jaygreco">Github</a> and <a href="https://www.thingiverse.com/jaygreco/designs">Thingiverse</a>.
 
-</span></div></div></div></div><!-- End of Stacks Content -->
-
-
-
-		</div><!-- End content -->
-	</div><!-- End main content wrapper -->
+				</span>
+				</div>
+			</div>
+		</div>
+	</div><!-- End of Stacks Content -->
+</div><!-- End content -->
+</div><!-- End main content wrapper -->
 
 	<div class="clearer"></div>
 	<div id="footer"><!-- Start Footer -->
