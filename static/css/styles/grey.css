@@ -1,0 +1,88 @@
+#border {
+	background-image: url(../../images/backround2.gif);
+}
+
+body {
+	background: #ffffff url(../../images/bg.gif) top center repeat-x;
+}
+
+#pageHeader {
+	height: 192px;
+	background-image: url(../../images/calgary.jpg);
+}
+
+a:link {
+	color: #2780da; 
+}
+
+a:visited {
+	color: #2780da;  
+}
+
+a:active {
+	color: #2780da; 
+}
+
+a:hover { 
+	color: #2780da; 
+}
+
+#wrapper {
+	border: 0px solid #ffffff;
+}
+
+#footer {
+	color: #555555
+}
+
+#breadcrumbcontainer a {
+	color: #2780da;
+}
+
+#navcontainer a {      
+      color:#767676;
+}
+
+#navcontainer a:hover {
+	color: #2780da;	
+}
+
+.blog-archive-headings-wrapper {
+	color: #000000;
+}
+
+.blog-archive-entries-wrapper {
+	color: #747474;
+}
+
+.blog-archive-month {
+	color: #747474;
+}
+
+.blog-archive-link { 
+	color: #747474;
+}
+
+.blog-entry-title {
+	color: #000000;
+}
+
+.blog-entry-date {
+	color: #4c4c4c;
+}
+	
+.album-title {
+	color:  #000000;
+}
+
+.photo-title {
+	color:  #000000;
+}
+
+.required-text {
+	color: #4c4c4c;
+} 
+
+.form-input-field {
+	color: #4c4c4c;
+} 

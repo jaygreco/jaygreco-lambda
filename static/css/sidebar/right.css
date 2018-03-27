@@ -1,0 +1,16 @@
+#container {
+max-width: 770px;
+}
+
+#contentContainer {
+width: 68%;
+}
+
+#sidebarContainer {
+background: #ffffff url(../../images/menu.gif) top center no-repeat;
+width: 30%;
+}
+
+#sidebarContainer #sidebar {
+padding: 10px;
+}

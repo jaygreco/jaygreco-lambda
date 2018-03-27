@@ -1,0 +1,76 @@
+#border {
+	background-image: url(../../images/backround.gif);
+}
+
+body {
+	background: #ffffff url(../../images/bg3.gif) top center repeat-x;
+}
+
+#pageHeader {
+	height: 192px;
+	background-image: url(../../images/bird.gif);
+}
+
+a:link {
+color: #bcbcbc; 
+}
+
+a:visited {
+color: #bcbcbc; 
+}
+
+a:active {
+color: #bcbcbc; 
+}
+
+a:hover { 
+color: #385300;
+}
+
+#wrapper {
+border: 0px solid #669900;
+}
+
+#footer {
+	color: #c3c3c3;
+}
+
+#breadcrumbcontainer a {
+	color: #669900;
+}
+
+#navcontainer a {      
+      color:#669900;
+}
+
+#navcontainer a:hover {
+	color: #818181;	
+}
+
+.blog-archive-headings-wrapper {
+	color: #ffffff;
+}
+
+.blog-archive-entries-wrapper {
+	color: #000000;
+}
+
+.blog-archive-month {
+	color: #000000;
+}
+
+.blog-archive-link { 
+	color: #bcbcbc;
+}
+
+.blog-entry-title {
+	color: #767676;
+}
+
+.blog-entry-date {
+	color: #000000;
+}
+
+.required-text {
+	color: #ff0000;
+} 

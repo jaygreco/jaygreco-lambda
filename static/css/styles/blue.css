@@ -1,0 +1,109 @@
+#border {
+	background-image: url(../../images/backround3.jpg);
+}
+
+#border {
+	background-image: url(../../images/backround3.jpg);
+}
+
+body {
+	background: #ffffff url(../../images/bg4.gif) top center repeat-x;
+}
+
+#pageHeader {
+	height: 192px;
+	background-image: url(../../images/beach.jpg);
+}
+
+#pageHeader h1 {
+	margin: 0;
+	font-size: 2.0em;
+	padding-top: 135px;
+	color: #000000;
+	padding-left: 500px;
+}
+
+#pageHeader h2 {
+	margin: 0;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #727272;
+	padding-left: 500px;
+	line-height: 150%;
+}
+
+a:link {
+	color: #2780da; 
+}
+
+a:visited {
+	color: #2780da;  
+}
+
+a:active {
+	color: #2780da; 
+}
+
+a:hover { 
+	color: #2780da; 
+}
+
+#wrapper {
+	border: 0px solid #ffffff;
+}
+
+#footer {
+	color: #555555
+}
+
+#breadcrumbcontainer a {
+	color: #2780da;
+}
+
+#navcontainer a {      
+      color:#767676;
+}
+
+#navcontainer a:hover {
+	color: #2780da;	
+}
+
+.blog-archive-headings-wrapper {
+	color: #cccccc;
+}
+
+.blog-archive-entries-wrapper {
+	color: #cccccc;
+}
+
+.blog-archive-month {
+	color: #cccccc;
+}
+
+.blog-archive-link { 
+	color: #bcbcbc;
+}
+
+.blog-entry-title {
+	color: #000000;
+}
+
+.blog-entry-date {
+	color: #4c4c4c;
+}
+	
+.album-title {
+	color:  #000000;
+}
+
+.photo-title {
+	color:  #000000;
+}
+
+.required-text {
+	color: #4c4c4c;
+} 
+
+.form-input-field {
+	color: #4c4c4c;
+} 

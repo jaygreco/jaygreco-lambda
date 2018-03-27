@@ -1,0 +1,105 @@
+#border {
+	background-image: url(../../images/backround4.jpg);
+}
+
+body {
+	background: #ffffff url(../../images/bg5.gif) top center repeat-x;
+}
+
+#pageHeader {
+	height: 192px;
+	background-image: url(../../images/nightskyline.jpg);
+}
+
+#pageHeader h1 {
+	margin: 0;
+	font-size: 2.0em;
+	padding-top: 10px;
+	color: #000000;
+	padding-left: 500px;
+}
+
+#pageHeader h2 {
+	margin: 0;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #727272;
+	padding-left: 500px;
+	line-height: 150%;
+}
+
+a:link {
+	color: #573A41; 
+}
+
+a:visited {
+	color: #573A41;  
+}
+
+a:active {
+	color: #573A41; 
+}
+
+a:hover { 
+	color: #573A41; 
+}
+
+#wrapper {
+	border: 0px solid #ffffff;
+}
+
+#footer {
+	color: #555555
+}
+
+#breadcrumbcontainer a {
+	color: #573A41;
+}
+
+#navcontainer a {      
+      color:#767676;
+}
+
+#navcontainer a:hover {
+	color: #573A41;	
+}
+
+.blog-archive-headings-wrapper {
+	color: #cccccc;
+}
+
+.blog-archive-entries-wrapper {
+	color: #cccccc;
+}
+
+.blog-archive-month {
+	color: #cccccc;
+}
+
+.blog-archive-link { 
+	color: #bcbcbc;
+}
+
+.blog-entry-title {
+	color: #000000;
+}
+
+.blog-entry-date {
+	color: #4c4c4c;
+}
+	
+.album-title {
+	color:  #000000;
+}
+
+.photo-title {
+	color:  #000000;
+}
+
+.required-text {
+	color: #4c4c4c;
+} 
+
+.form-input-field {
+	color: #4c4c4c;
+} 

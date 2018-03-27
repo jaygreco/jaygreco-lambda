@@ -1,0 +1,19 @@
+#container {
+max-width: 770px;
+}
+
+#contentContainer {
+background: #ffffff;
+width:100%;
+float: left;
+overflow: hidden;
+text-align: left;
+}
+
+#sidebarContainer {
+width: 0%;
+}
+
+#sidebarContainer #sidebar {
+padding: 20px;
+}
